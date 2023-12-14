@@ -18,4 +18,6 @@ public interface IntakeRollerIO {
     public default void stop() {}
 
     public default void configurePID(double kP, double kI, double kD) {}
+
+    public void stopMotor();
 }
